@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트랜스미디어 스토리텔링 가이드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary .arrow-down {
+            transform: rotate(180deg);
+        }
+        .section-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+        }
+        .summary-header {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f9fafb;
+        }
+        .summary-header:hover {
+            background-color: #f3f4f6;
+        }
+        .content-body {
+            padding: 1.5rem;
+            border-top: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">트랜스미디어 스토리텔링</h1>
+            <p class="text-lg text-gray-600">이야기의 세계를 건설하는 법: <무빙> 유니버스 분석</p>
+        </header>
+
+        <!-- 1. 트랜스미디어 스토리텔링 정의 -->
+        <details class="section-card" open>
+            <summary class="summary-header">
+                <h2 class="text-2xl font-semibold text-indigo-700">1. 트랜스미디어 스토리텔링이란?</h2>
+                <svg class="w-6 h-6 arrow-down transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </summary>
+            <div class="content-body space-y-6">
+                <blockquote class="p-4 border-l-4 border-indigo-500 bg-indigo-50 italic">
+                    <p class="font-medium">"하나의 이야기가 여러 미디어 플랫폼을 통해 유기적으로 확장되며, 각 미디어가 전체 세계관에 고유한 기여를 하는 방식의 스토리텔링"</p>
+                </blockquote>
+                <p>가장 중요한 점은 단순히 같은 이야기를 반복하는 것이 아니라는 점. 각 미디어(웹툰, 영화, 게임, 소설, 굿즈 등)는 독립적인 이야기로서 완결성을 갖추면서도, 거대한 퍼즐의 한 조각처럼 기능하여 전체 세계관을 더 풍성하게 만듦.</p>
+                
+                <div class="mt-6">
+                    <h3 class="text-xl font-bold mb-4">OSMU(원 소스 멀티 유즈)와의 결정적 차이</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="p-3 font-semibold border-b-2 border-gray-200">구분</th>
+                                    <th class="p-3 font-semibold border-b-2 border-gray-200">OSMU (One Source Multi Use)</th>
+                                    <th class="p-3 font-semibold border-b-2 border-gray-200">트랜스미디어 스토리텔링</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-3 font-bold">핵심</td>
+                                    <td class="p-3">하나의 성공한 <strong>이야기</strong>를 재활용</td>
+                                    <td class="p-3">하나의 매력적인 <strong>세계관</strong>을 확장</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-3 font-bold">방식</td>
+                                    <td class="p-3">웹툰 → 영화 → 드라마 (같은 이야기 반복)</td>
+                                    <td class="p-3">웹툰(본편) + 게임(주인공 과거) + 소설(조연 이야기)</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-3 font-bold">소비 경험</td>
+                                    <td class="p-3">각 미디어를 독립적으로 즐겨도 무방</td>
+                                    <td class="p-3">여러 미디어를 경험할수록 세계관이 입체적으로 완성됨</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-bold">예시</td>
+                                    <td class="p-3">소설 &lt;해리포터&gt; → 영화 &lt;해리포터&gt;</td>
+                                    <td class="p-3"><strong>마블 시네마틱 유니버스(MCU)</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <p class="text-sm text-gray-600">MCU는 각 영화와 드라마가 독립적이면서도 하나의 거대한 세계관을 구축하는 트랜스미디어의 대표적 사례입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <!-- 2. 성공을 위한 3가지 핵심 요소 -->
+        <details class="section-card" open>
+            <summary class="summary-header">
+                <h2 class="text-2xl font-semibold text-indigo-700">2. 성공을 위한 3가지 핵심 요소</h2>
+                <svg class="w-6 h-6 arrow-down transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </summary>
+            <div class="content-body grid md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 p-4 rounded-lg border">
+                    <h3 class="font-bold text-lg mb-2">1. 확장 가능한 '세계관'</h3>
+                    <p class="text-sm">탄탄하고 매력적인 세계관은 트랜스미디어의 심장. 독자들이 더 알고 싶어 하는 세계의 역사, 규칙, 숨겨진 설정이 풍부해야 함.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border">
+                    <h3 class="font-bold text-lg mb-2">2. 각 플랫폼에 최적화된 '독립성'</h3>
+                    <p class="text-sm">모든 관객이 모든 미디어를 소비하지는 않음! 따라서 각 플랫폼의 이야기는 그 자체로도 완결성을 가져야 함.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border">
+                    <h3 class="font-bold text-lg mb-2">3. 팬들의 적극적인 '참여'</h3>
+                    <p class="text-sm">팬들이 흩어진 정보 조각을 모으고, 해석하고, 2차 창작을 통해 세계관을 함께 채워나갈 때 비로소 완성됨.</p>
+                </div>
+            </div>
+        </details>
+        
+        <!-- 3. 웹툰 기반 성공 사례 -->
+        <details class="section-card" open>
+            <summary class="summary-header">
+                <h2 class="text-2xl font-semibold text-indigo-700">3. 웹툰 기반 성공 사례 분석</h2>
+                <svg class="w-6 h-6 arrow-down transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </summary>
+            <div class="content-body space-y-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-2">&lt;신과함께&gt; - 세계관의 성공적 재창조</h3>
+                    <p>웹툰은 저승 세계관의 '설계도' 역할을, 영화는 그 세계관을 바탕으로 새로운 서사를 구축한 '블록버스터 모델하우스' 역할을 수행하며 서로 다른 매력을 선보임.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-2">&lt;유미의 세포들&gt; - 형식의 창의적 확장</h3>
+                    <p>'실사와 애니메이션 결합'이라는 원작의 핵심 규칙을 드라마가 완벽하게 이식했고, 모바일 게임은 팬들을 세계관으로 '초대'하는 역할을 함.</p>
+                </div>
+            </div>
+        </details>
+        
+        <!-- 4. <무빙> 유니버스 분석 -->
+        <details class="section-card" open>
+            <summary class="summary-header">
+                <h2 class="text-2xl font-semibold text-indigo-700">4. [사례 연구] &lt;무빙&gt; 유니버스 분석</h2>
+                <svg class="w-6 h-6 arrow-down transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </summary>
+            <div class="content-body space-y-8">
+                <p class="text-md">강풀 작가의 &lt;무빙&gt;은 한국형 트랜스미디어 스토리텔링의 가장 성공적인 최신 사례. 단순히 웹툰을 영상으로 옮긴 것을 넘어, 어떻게 '강풀 유니버스'라는 거대한 세계관을 건설했는지 분석하는 것은 의미있는 작업.</p>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-2">1단계: 웹툰 &lt;무빙&gt; - 세계관의 초석</h3>
+                    <p>모든 이야기의 '청사진'이자 '본편'. 2세들의 이야기에 집중하며 부모 세대의 과거는 의도적으로 '미스터리'와 '여백'으로 남겨두어 궁금증을 자극.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-2">2단계: 드라마 &lt;무빙&gt; - 세계관의 폭발적 확장</h3>
+                    <p>드라마는 웹툰의 비어있던 '여백'을 채우는 '프리퀄(Prequel)'이자 '확장팩(Expansion Pack)'의 역할을 수행. 부모 세대의 서사를 부여하고, 웹툰 &lt;타이밍&gt;, &lt;브릿지&gt;와 연결하며 '강풀 유니버스'로 세계관을 격상시킴.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-2">3단계: 미래의 확장 가능성 (상상해보기)</h3>
+                     <ul class="list-disc list-inside space-y-2 mt-4 text-gray-700">
+                        <li><b>프랭크 스핀오프 (드라마/영화):</b> 암살자 '프랭크'의 시점에서 보는 냉전 시대 첩보 스릴러.</li>
+                        <li><b>정원고등학교 (모바일 게임):</b> 플레이어가 새로운 초능력자 학생이 되는 육성 시뮬레이션 게임.</li>
+                        <li><b>안기부 비사 (웹소설):</b> '민용준' 차장을 주인공으로 한 80년대 정치 스릴러.</li>
+                    </ul>
+                </div>
+                <blockquote class="mt-8 p-4 border-l-4 border-indigo-500 bg-indigo-50 italic">
+                    <p class="font-medium">&lt;무빙&gt;의 성공은 원작의 '여백'을 존중하고, 다른 미디어를 통해 그 여백을 더 깊고 풍성한 '새로운 이야기'로 채워 넣으며 '세계관' 자체를 확장시켰기 때문.</p>
+                </blockquote>
+            </div>
+        </details>
+        
+        <!-- 5. more: 프리퀄과 확장팩 -->
+        <details class="section-card" open>
+            <summary class="summary-header">
+                <h2 class="text-2xl font-semibold text-indigo-700">5. [more] 프리퀄과 확장팩이란?</h2>
+                <svg class="w-6 h-6 arrow-down transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </summary>
+            <div class="content-body space-y-8">
+                <p>이 두 용어는 트랜스미디어 세계관이 어떻게 "깊어지고(Depth)"" "넓어지는지(Width)"를 이해하는 핵심 열쇠.</p>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-2 text-blue-600">프리퀄 (Prequel) - 이야기의 '뿌리'를 파고들다</h3>
+                    <p class="mb-2">원작 이야기보다 시간상으로 "앞선 시점"의 사건을 다룹니다. "주인공은 왜 그런 사람이 되었는가?"라는 질문에 답하며, 캐릭터의 행동에 "설득력"을 더함.</p>
+                    <p class="text-sm bg-blue-50 p-3 rounded-md"><b>&lt;무빙&gt; 적용:</b> 드라마는 부모 세대의 과거를 집중 조명하여, 2세들의 이야기에 감정적 깊이를 더하는 완벽한 프리퀄의 역할을 함.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-2 text-green-600">확장팩 (Expansion Pack) - 세계의 '지평'을 넓히다</h3>
+                    <p class="mb-2">기존 세계관에 새로운 지역, 캐릭터, 이야기를 추가하여 "즐길 거리를 확장"합니다. "이 세계에는 또 어떤 흥미로운 인물들이 있는가?"라는 질문에 답하며, "새로운 이야기의 가능성"을 열어감.</p>
+                    <p class="text-sm bg-green-50 p-3 rounded-md"><b>&lt;무빙&gt; 적용:</b> 드라마는 암살자 '프랭크', '북한 기력자' 등 새로운 세력을 등장시켜, '초능력자를 둘러싼 국제 정세'라는 더 넓은 판으로 세계관을 확장하는 효과적인 확장팩의 역할을 함.</p>
+                </div>
+
+                <div class="mt-6">
+                    <h3 class="text-xl font-bold mb-4">한눈에 비교하기</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="p-3 font-semibold border-b-2 border-gray-200">구분</th>
+                                    <th class="p-3 font-semibold border-b-2 border-gray-200">프리퀄 (Prequel)</th>
+                                    <th class="p-3 font-semibold border-b-2 border-gray-200">확장팩 (Expansion Pack)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-3 font-bold">관점</td>
+                                    <td class="p-3">시간 (과거로의 회귀)</td>
+                                    <td class="p-3">공간 (옆으로의 확장)</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-3 font-bold">방향</td>
+                                    <td class="p-3">깊이 (Depth)</td>
+                                    <td class="p-3">넓이 (Width)</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-3 font-bold">핵심 질문</td>
+                                    <td class="p-3 font-mono">"왜?" (Why?)</td>
+                                    <td class="p-3 font-mono">"그 외에 또?" (What else?)</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-bold">효과</td>
+                                    <td class="p-3">원작의 감정선을 심화시키고, 인물의 행동에 <strong>설득력</strong>을 더함</td>
+                                    <td class="p-3">원작의 세계가 더 크고 복잡하게 느껴지게 하며, <strong>새로운 이야기의 가능성</strong>을 열어둠</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <footer class="text-center mt-12 py-6 border-t">
+            <p class="text-gray-600">웹툰 IP와 콘텐츠 (최선 교수)</p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.querySelectorAll('details').forEach((detail) => {
+            detail.addEventListener('toggle', function() {
+                // You can add custom behavior on toggle here if needed.
+            });
+        });
+    </script>
+</body>
+</html>
+
